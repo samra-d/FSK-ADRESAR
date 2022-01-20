@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="lab.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">FSK adresar</a>
+    </header>
+    <div class="insert">
+      <input id="firstName" placeholder="First Name" />
+      <br />
+      <br />
+      <input id="lastName" placeholder="Last Name" />
+      <br />
+      <br />
+      <input id="studentID" placeholder="Student ID" />
+      <br />
+      <br />
+      <input id="department" placeholder="Department" />
+      <br />
+      <br />
+      <input id="cycle" placeholder="Cycle" />
+      <br />
+      <br />
+      <input id="semester" placeholder="Semester" />
+      <br />
+      <br />
+      <button
+        class="btn"
+        onclick="insertStudentToStorage(
+          document.getElementById('firstName').value,
+  document.getElementById('lastName').value,
+  document.getElementById('studentID').value,
+  document.getElementById('department').value,
+  document.getElementById('semester').value,);"
+      >
+        Insert Student
+      </button>
+    </div>
+  </body>
+</html>

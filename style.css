@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: whitesmoke;
+  }
+  .index {
+    border: 1px solid rgb(65, 62, 62);
+    text-align: center;
+    width: 28%;
+    height: 28%;
+    border-radius: 3%;
+    justify-content: center;
+    padding: 50px 10px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    line-height: 35px;
+    background-color: white;
+  }
+  
+  .index a {
+    text-decoration: none;
+    color: black;
+    border: 0.5px solid black;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+    padding: 3.5px;
+  }
+  
+  .header {
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    background-color: black;
+    text-align: center;
+    border-bottom: 5px solid #999999;
+  }
+  .header a {
+    color: white;
+    text-decoration: none;
+    font-size: 220%;
+  }
+  
+  .insert {
+    position: absolute;
+    left: 48%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+  .insert #firstName,
+  #lastName,
+  #studentID,
+  #department,
+  #cycle,
+  #semester {
+    width: 173%;
+    height: 40px;
+    padding: 2px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .insert .btn {
+    background-color: white;
+    border: 1px solid green;
+    padding: 15px 110px;
+    position: fixed;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  .insert .btn:hover {
+    background-color: green;
+  }
+  .display {
+    position: absolute;
+    left: 48%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+  
+  .display #ID {
+    width: 173%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .display .btn {
+    background-color: white;
+    border: 1px solid green;
+    padding: 15px 110px;
+    position: fixed;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  .display .btn:hover {
+    background-color: green;
+  }
+  #output {
+    font-size: large;
+    position: relative;
+    text-align: center;
+    top: 100px;
+    right: 670px;
+  }
+  
+  .lista {
+    position: absolute;
+    left: 48%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+  
+  .lista .btn {
+    background-color: white;
+    border: 1px solid green;
+    padding: 15px 110px;
+    position: relative;
+    left: 33px;
+    text-align: center;
+    text-decoration: none;
+  
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  
+  .lista .btn:hover {
+    background-color: green;
+  }
+  
+  .lista #output1 {
+    font-size: large;
+    position: relative;
+    text-align: center;
+    left: 33px;
+  }
+  
